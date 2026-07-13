@@ -3,32 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanvir | Portfolio</title>
+    <title>Tanvir Hussain Sunny | Engineer & Digital Creator</title>
     <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header class="hero">
-        <h1>Tanvir</h1>
-        <p>Website Designer • Digital Marketer • Web Developer</p>
-        <a href="#services" class="btn">My Services</a>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="logo">TANVIR<span>.</span></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact" class="btn-nav">Hire Me</a>
+        </nav>
     </header>
 
-    <section id="services" class="services">
-        <h2>What I Do</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Web Design</h3>
-                <p>Modern, responsive, and user-friendly designs.</p>
-            </div>
-            <div class="card">
-                <h3>Web Development</h3>
-                <p>Fast and secure websites built with the latest technologies.</p>
-            </div>
-            <div class="card">
-                <h3>Digital Marketing</h3>
-                <p>SEO and marketing strategies that grow your business.</p>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <h4>Hello, I'm</h4>
+            <h1>Tanvir Hussain Sunny</h1>
+            <h3>Engineer & Digital Growth Expert</h3>
+            <p>I build high-converting landing pages and scale your brand's presence across Facebook, TikTok, and YouTube. Let's engineer your growth.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn primary">View Services</a>
+                <a href="#contact" class="btn secondary">Get in Touch</a>
             </div>
         </div>
     </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-title">
+            <h2>What I Do</h2>
+            <p>Premium digital solutions to accelerate your business online</p>
+        </div>
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                <h3>Landing Page Design</h3>
+                <p>Custom, responsive, and high-converting landing pages tailored strictly to turn your traffic into paying customers.</p>
+            </div>
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-brands fa-facebook-f"></i></div>
+                <h3>Facebook Growth</h3>
+                <p>Boost your brand authority instantly with organic-looking page likes, followers, and targeted post engagement.</p>
+            </div>
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-brands fa-tiktok"></i></div>
+                <h3>TikTok Marketing</h3>
+                <p>Explode your visibility. Gain high-retention followers, video views, and likes to beat the TikTok algorithm.</p>
+            </div>
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-brands fa-youtube"></i></div>
+                <h3>YouTube Optimization</h3>
+                <p>Increase your channel's metrics safely. Real-looking subscribers, video likes, and watch time to push your content.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Packages Section -->
+    <section class="pricing" id="pricing">
+        <div class="section-title">
+            <h2>Growth Packages</h2>
+            <p>Simple, transparent pricing to kickstart your social presence</p>
+        </div>
+        <div class="pricing-grid">
+            <!-- Plan 1 -->
+            <div class="price-card">
+                <h3>Starter Page</h3>
+                <div class="price">$99</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 1 Page Custom HTML/CSS</li>
+                    <li><i class="fa-solid fa-check"></i> Fully Mobile Responsive</li>
+                    <li><i class="fa-solid fa-check"></i> Contact Form Integration</li>
+                    <li><i class="fa-solid fa-xmark disabled"></i> Social Media Boost Included</li>
+                </ul>
+                <a href="#contact" class="btn card-btn">Order Now</a>
+            </div>
+            <!-- Plan 2 (Featured) -->
+            <div class="price-card featured">
+                <div class="badge">Most Popular</div>
+                <h3>Social Mega Boost</h3>
+                <div class="price">$149</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Facebook Followers & Likes</li>
+                    <li><i class="fa-solid fa-check"></i> TikTok Followers & Views</li>
+                    <li><i class="fa-solid fa-check"></i> YouTube Subscribers & Likes</li>
+                    <li><i class="fa-solid fa-check"></i> 24/7 Priority Support</li>
+                </ul>
+                <a href="#contact" class="btn card-btn premium">Order Now</a>
+            </div>
+            <!-- Plan 3 -->
+            <div class="price-card">
+                <h3>The Ultimate Mix</h3>
+                <div class="price">$229</div>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Premium Landing Page</li>
+                    <li><i class="fa-solid fa-check"></i> Complete Social Media Growth</li>
+                    <li><i class="fa-solid fa-check"></i> SEO Optimization</li>
+                    <li><i class="fa-solid fa-check"></i> 15 Days Free Maintenance</li>
+                </ul>
+                <a href="#contact" class="btn card-btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Let's Work Together</h2>
+            <p>Have a project in mind? Drop a message and let's discuss details.</p>
+        </div>
+        <div class="contact-container">
+            <form action="#" class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Tell me about your project..." rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Tanvir Hussain Sunny. Engineered for Growth.</p>
+        <div class="footer-socials">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+
 </body>
 </html>
